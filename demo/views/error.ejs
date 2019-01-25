@@ -1,0 +1,28 @@
+<% include ./layout/top.ejs %>
+
+<main id="content" role="main">
+
+    <div class="breadcrumbs breadcrumb-two-thirds">
+        <ol>
+            <li><a href="/">Home</a></li>
+        </ol>
+    </div>
+
+    <div class="grid-row">
+        <div class="column-full">
+            <div class="error-summary" role="alert" aria-labelledby="error-summary-heading-example-1" tabindex="-1">
+                <h2 class="heading-medium error-summary-heading" id="error-summary-heading-example-1">
+                    <%= title %>
+                </h2>
+
+                <p>
+                    <%- message %>
+                </p>
+
+                <% if(stack ) { %>
+                <pre><%- JSON.stringify(credentials, null, 2) %></pre>
+                <% } %>
+            </div>
+        </div>
+    </div>
+<% include ./layout/bottom.ejs %>
