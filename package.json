@@ -1,6 +1,6 @@
 {
   "name": "@envage/defra-identity-hapi-plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A hapi auth plugin to allow easy integration with DEFRA's Identity Management system",
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
     "await-to-js": "^2.0.1",
     "debug": "^3.1.0",
     "hapi-auth-cookie": "^8.1.0",
-    "openid-client": "^1.20.0",
+    "openid-client": "^2.5.0",
     "uuid": "^3.2.1"
   },
   "devDependencies": {
