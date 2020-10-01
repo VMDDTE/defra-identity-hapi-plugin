@@ -10,7 +10,6 @@
   "scripts": {
     "test": "npm run lint; lab -v",
     "lint": "(standard --verbose | snazzy) && echo 'All lint rules passed' || true",
-    "demo": "set DEBUG=defra.identity:* & node demo",
     "postinstall": "cp -n demo/.env.template demo/.env || echo 'Note: Error creating demo/.env. File may already exist'"
   },
   "author": "Department for Environment, Food & Rural Affairs",
@@ -28,9 +27,7 @@
     "uuid": "^3.2.1"
   },
   "devDependencies": {
-    "blipp": "^3.0.0",
     "code": "^5.2.0",
-    "cryptiles": ">=4.1.2",
     "dotenv": "^5.0.1",
     "ejs": "^2.5.7",
     "@hapi/inert": "^6.0.1",

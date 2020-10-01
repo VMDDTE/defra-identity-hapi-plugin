@@ -1,6 +1,6 @@
 # Defra.Identity hapi plugin
 
-**Note:** This plugin is designed for use with Hapi 17
+**Note:** This plugin is designed for use with Hapi 19
 
 The Defra.Identity hapi plugin (DIHP) is designed to streamline and standardise the way Defra services interact with an OpenID Connect (OIDC) Identity Provider (IdP).
 
@@ -19,24 +19,6 @@ Before you use DIHP, there are a few things you will need. If you do not have th
     - You will need, as a minimum:
         - A signup/signin policy
         - A password reset policy
-
-# Demo
-This repo includes a demo application in the `demo` directory. 
-
-To run the demo
-
-1. Clone this repo
-    - `git clone https://github.com/DEFRA/defra-identity-hapi-plugin.git`
-
-2. Install plugin dependencies
-    - `npm i`
-    
-3. Open `demo/.env` and fill in the environment variables
-
-4. Run the demo app
-    - `npm run demo`
-    - The debug module is enabled by default in the demo, so you should see some colourful output in your console detailing what the plugin is doing as the application starts
-    - The blipp module is also included in the demo, so you should see console output showing which all the routes exposed, along with their auth config
 
 # Quick start
 Generic docs about how to implement hapi auth plugins can be found [here](https://hapijs.com/tutorials/auth).
