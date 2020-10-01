@@ -27,7 +27,9 @@
     "uuid": "^3.2.1"
   },
   "devDependencies": {
+    "blipp": "^3.0.0",
     "code": "^5.2.0",
+    "cryptiles": ">=4.1.2",
     "dotenv": "^5.0.1",
     "ejs": "^2.5.7",
     "@hapi/inert": "^6.0.1",
