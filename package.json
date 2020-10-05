@@ -1,6 +1,6 @@
 {
   "name": "@envage/defra-identity-hapi-plugin",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A hapi auth plugin to allow easy integration with DEFRA's Identity Management system",
   "repository": {
     "type": "git",
@@ -9,9 +9,7 @@
   "main": "./lib/index.js",
   "scripts": {
     "test": "npm run lint; lab -v",
-    "lint": "(standard --verbose | snazzy) && echo 'All lint rules passed' || true",
-    "demo": "set DEBUG=defra.identity:* & node demo",
-    "postinstall": "cp -n demo/.env.template demo/.env || echo 'Note: Error creating demo/.env. File may already exist'"
+    "lint": "(standard --verbose | snazzy) && echo 'All lint rules passed' || true"
   },
   "author": "Department for Environment, Food & Rural Affairs",
   "license": "See LICENSE.md",
@@ -20,25 +18,16 @@
     "npm": "5.7.1"
   },
   "dependencies": {
-    "@hapi/hapi": "^19.1.1",
     "await-to-js": "^2.0.1",
     "debug": "^3.1.0",
     "hapi-auth-cookie": "^8.1.0",
-    "openid-client": "^2.5.0",
+    "openid-client": "^3.15.10",
     "uuid": "^3.2.1"
   },
   "devDependencies": {
-    "blipp": "^3.0.0",
-    "catbox-mongodb": "^4.2.0",
     "code": "^5.2.0",
-    "cryptiles": ">=4.1.2",
-    "dotenv": "^5.0.1",
-    "ejs": "^2.5.7",
-    "@hapi/inert": "^6.0.1",
     "lab": "^15.4.1",
-    "minimist": "^1.2.5",
     "snazzy": "^7.1.1",
-    "standard": "^11.0.1",
-    "vision": "^5.3.1"
+    "standard": "^11.0.1"
   }
 }
