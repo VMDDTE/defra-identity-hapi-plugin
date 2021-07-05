@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "await-to-js": "^2.0.1",
-    "debug": "^3.1.0",
+    "debug": "^4.3.2",
     "hapi-auth-cookie": "^8.1.0",
     "openid-client": "^3.15.10",
     "uuid": "^3.2.1"
