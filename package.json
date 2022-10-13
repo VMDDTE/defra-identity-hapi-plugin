@@ -27,7 +27,7 @@
   "devDependencies": {
     "code": "^5.2.0",
     "lab": "^15.4.1",
-    "snazzy": "^7.1.1",
+    "snazzy": "^9.0.0",
     "standard": "^11.0.1"
   }
 }
