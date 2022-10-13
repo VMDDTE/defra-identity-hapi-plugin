@@ -22,7 +22,7 @@
     "debug": "^3.1.0",
     "hapi-auth-cookie": "^8.1.0",
     "openid-client": "^3.15.10",
-    "uuid": "^3.2.1"
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "code": "^5.2.0",
