@@ -14,20 +14,20 @@
   "author": "Department for Environment, Food & Rural Affairs",
   "license": "See LICENSE.md",
   "engines": {
-    "node": "8.9.1",
-    "npm": "5.7.1"
+    "node": "24.22.1",
+    "npm": "11.19.1"
   },
   "dependencies": {
+    "@hapi/cookie": "^12.0.1",
     "await-to-js": "^2.0.1",
     "debug": "^3.1.0",
-    "hapi-auth-cookie": "^8.1.0",
-    "openid-client": "^3.15.10",
-    "uuid": "^3.2.1"
+    "openid-client": "^6.8.9",
+    "uuid": "^14.0.3"
   },
   "devDependencies": {
-    "code": "^5.2.0",
-    "lab": "^15.4.1",
+    "@hapi/code": "^9.0.3",
+    "@hapi/lab": "^26.0.1",
     "snazzy": "^7.1.1",
-    "standard": "^11.0.1"
+    "standard": "^17.1.2"
   }
 }

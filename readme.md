@@ -102,7 +102,7 @@ By default, DIHP uses an in memory cache. This is useful for getting an implemen
 This is the same interface as the built in hapi cache. An example implementation can be found in [`demo/server.js`](blob/demo/server.js).
 
 ## Cookie
-DIHP uses [hapi-auth-cookie](https://github.com/hapijs/hapi-auth-cookie) to manage its cookies. DIHP will use this to store an encrypted reference to the users claims, stored in the plugin's cache.
+DIHP uses [@hapi/cookie](https://hapi.dev/family/cookie/) to manage its cookies. DIHP will use this to store an encrypted reference to the users claims, stored in the plugin's cache.
 
 This reference does not include any user information, at no point does the plugin expose any user information to the client's browser.
 
